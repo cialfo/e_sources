@@ -70,8 +70,9 @@ module ESources
       Client.post create_user_url, parameters
     end
 
-    def list_user(account_id, user_id, nonce)
-      parameters = "id=#{user_id}&accountId=#{account_id}&nonce=#{nonce}"
+    # attribute can be any attribute in User attributes
+    def list_user_by(account_id, attribute_value, nonce,  attribute = 'id')
+      parameters = "#{attribute}=#{attribute_value}&accountId=#{account_id}&nonce=#{nonce}"
       response = Client.get list_user_url + "?#{parameters}"
       response
     end
