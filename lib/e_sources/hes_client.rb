@@ -113,8 +113,8 @@ module ESources
     def environment_urls
       {
         prod: {
-          api_root_url: 'https://api.humanesources.com/',
-          ext_root_url: 'https://api.humanesources.com/ext.php/'
+          api_root_url: 'https://api.keystosucceed.cn/',
+          ext_root_url: 'https://api.keystosucceed.cn/ext.php/'
         },
         staging: {
           api_root_url: 'https://api.staging.humanesources.com/',
