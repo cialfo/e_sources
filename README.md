@@ -1,3 +1,8 @@
+# THIS GEM IS NO LONGER USE.
+
+We have updated the implementation to use the New HES endpoints.
+https://cialfo.atlassian.net/browse/CC-9128
+
 # ESources
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/e_sources`. To experiment with that code, run `bin/console` for an interactive prompt.
