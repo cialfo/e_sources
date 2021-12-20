@@ -1,4 +1,4 @@
-# THIS GEM IS NO LONGER USE.
+# THIS GEM IS NO LONGER IN USE.
 
 We have updated the implementation to use the New HES endpoints.
 https://cialfo.atlassian.net/browse/CC-9128
